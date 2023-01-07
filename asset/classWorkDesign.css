@@ -1,0 +1,49 @@
+.card .image{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-image: url(./Person.png);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+ 
+}
+.card{
+    display: flex;
+    padding: 200px;
+    justify-content: center;
+  
+  
+  
+}
+.container{
+    width:500px;
+    height: 300px;
+    background-color: white;
+}
+.rightSide{
+    background-color: aqua;
+    width: 250px;
+    height: 300px;
+    padding: 60px;
+background-color: brown;
+    box-sizing: border-box;
+}
+.container p{
+    float: right;
+}
+.rightSide p{
+    background-color: rgb(203, 88, 88);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.rightSide h4{
+    background-color: rgb(203, 88, 88);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}

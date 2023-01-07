@@ -1,0 +1,101 @@
+.image1 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-image: url(./facebook\ logo.png);
+    background-size: cover;
+}
+
+.image2 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-image: url(./instagram\ logo.jfif);
+    background-size: cover;
+}
+
+.image3 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-image: url(./twitter\ logo.png);
+    background-size: cover;
+}
+
+.image4 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Youtube\ logo.png);
+    background-size: cover;
+}
+
+.rightSide {
+    /* border: 1px solid black;
+    width: 700px;
+    height: 800px; */
+    justify-content: center;
+    margin-left: 230px;
+    padding: 200px;
+    box-sizing: border-box;
+
+
+}
+
+.side1 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+
+}
+
+.about {
+    display: flex;
+    gap: 40px;
+
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.person {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-image: url(./Person.png);
+    background-size: cover;
+    margin-left: -10pxpx;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-sizing: border-box;
+
+}
+
+.side2 {
+    background-color: darkcyan;
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 270px;
+
+}
+
+.side2 p {
+    margin-left: 80px;
+}
+
+.rightSide h3:first-child {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(202, 199, 199);
+}
+
